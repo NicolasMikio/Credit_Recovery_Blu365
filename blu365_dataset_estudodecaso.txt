@@ -1,0 +1,28 @@
+No arquivo: dados brutos e descrição das principais variáveis
+            nome do arquivo: dataset_estudodecaso.xlsx
+
+Ideias de como usar a base para mensurar o aprendizado dos alunos:
+
+	- Feature engineering:
+		(ex: pegar a data de disparo e construir variáveis 
+		     relacionadas ao dia da semana)
+
+	- Tratamento de variáveis categóricas 
+	    (ex: one-hot encoding)
+
+	- Preenchimento de observações missing
+
+	- Estratégias para previsão em um dataset não-balanceado 
+	    (pode inclusive dividir o dataset entre 
+		 um conjunto "balanceado" e um "não-balanceado" 
+		 e questionar o que mudaria na estratégia de modelagem)
+
+	- Melhores métricas de performance para problemas de classificação
+
+	- Uso de regressão logística e interpretação do significado 
+	  dos coeficientes
+
+	- Técnicas de cross-validation
+
+	- Técnicas para escolha dos melhores hiperparâmetros no caso 
+	  de algoritmos como random forest, xgboost, redes neurais, etc.
